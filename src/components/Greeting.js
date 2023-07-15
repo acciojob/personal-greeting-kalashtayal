@@ -13,7 +13,7 @@ function Greeting(){
            
  <input type="text" value={name} onChange={handleChange}/>
 
- <p>{"Hello" + name+ "!"}</p>
+ <p>{"Hello " + name+ "!"}</p>
         </div>
     );
 }
